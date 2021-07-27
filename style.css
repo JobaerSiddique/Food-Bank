@@ -61,3 +61,23 @@ body{
 .about-paragraph{
     margin-bottom: 150px;
 }
+.recipe{
+    text-align: center;
+    margin-top: 100px;
+}
+.recipe-color{
+    color: rgb(32, 30, 30);
+    font-size: 35px;
+}
+.recipe-container{
+    margin-top: 150px;
+    display: flex;
+}
+.recipe-item{
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.recipe-item img{
+    width: 100%;
+}
