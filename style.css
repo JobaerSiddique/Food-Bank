@@ -1,0 +1,63 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-item{
+    display: flex;
+    list-style-type: none;
+}
+.navbar-item a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+}
+.navbar a:hover{
+    color: white;
+    background-image: linear-gradient(cyan,blue);
+    border-radius: 10px;
+    
+}
+.top-container{
+    display: flex;
+    margin-top: 150px;
+}
+.about-container{
+    display: flex;
+    margin-top: 150px;
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-part h1{
+    font-size: 60px;
+}
+.half-part{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+.half-part img{
+    width: 100%;
+}
+.heading-color{
+    color:orange;
+}
+.link-button {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 50px;
+    background-image: linear-gradient(orange,orangered);
+    color: white;
+    font-size: 20px;
+}
+#icon{
+    margin-right: 13px;
+    margin-top: 32px;
+}
+.about-paragraph{
+    margin-bottom: 150px;
+}
